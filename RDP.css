@@ -1,0 +1,543 @@
+/* 
+ * Template Name: Radio DePaul Custom CSS
+ * Author : Matthew Mola
+ * Date: 4/15/2021
+ * Version 1.3
+*/ 
+
+/* Headings */
+.entry-title 
+{ 
+	font-weight: bolder;
+	font-size: 32px;
+	border-top: 0px;
+}
+h1
+{ 
+	font-weight: bolder;
+	font-size: 24px;
+	border-top: 5px solid #303030;
+}
+h2
+{ 
+	font-weight: bold;
+	font-size: 21px;
+	text-transform: uppercase;
+	border-top: 5px solid #303030;
+}
+h3
+{ 
+	font-weight: bold;
+	font-size: 21px;
+	border-top: 5px solid #303030;
+}
+
+/* Hide Default HTML Audio Player */
+audio { display:none;}
+
+/* Background Colors */
+.rdp-black { background-color: #303030; }
+.dark-blue { background-color: #002643; }
+.depaul-blue { background-color: #005FA9; }
+.dark-gray { background-color: #9D9D9D; }
+.light-gray { background-color: #E6E6E6; }
+.depaul-red { background-color: #E4002B; }
+
+/* Header Styles  */
+.entry-header
+{
+	margin-top: 4%;
+}
+.page-header
+{
+	margin-top: 4%;
+}
+.post-thumbnail
+{
+	margin-top: 4%;
+	text-align: center;
+}
+
+/* Footer Styles */
+footer h1 
+{
+	font-weight: bold;
+	font-size: 24px;
+	border-top: 0px;
+	margin-top: 0%;
+}
+footer a
+{
+	font-size: 16px;
+}
+.footer
+{
+	/*margin: 0 auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+	width: 100%;
+}
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.footer div.fCol
+	{
+		text-align: center;
+	}
+	.footer div.fCol div
+	{
+		display: inline-block;
+		text-align: left;
+	}
+}
+
+/* Navbar Styles */
+.navbar-brand img
+{
+	width: 50%;
+}		
+.navbar-brand img:hover 
+{
+	animation: rotator 5s linear infinite; 
+}
+
+.row
+{
+	margin-bottom: 1%;
+}
+
+.site-main
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 4%;
+}
+
+nav.menu--main
+{
+	margin-left: 0;
+	margin-right: auto;
+}
+@media only screen and (max-width: 768px) 
+{
+	nav.menu--main
+	{
+		margin-left: auto;
+		margin-right: 0;
+	}
+	
+	.site-main
+	{
+		width: 100%;
+	}
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.getSponsors
+{
+	height: 10vh;
+}
+
+.getSponsors img
+{
+	max-height: 50%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+	.getSponsors
+	{
+		height: auto;
+	}
+	.getSponsors img
+	{
+		height: 10vh;
+	}
+	.footer img
+	{
+		display:none;
+	}
+}
+
+.gform .embed-responsive
+{
+	height: 2800px; 
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) 
+{
+	.gform .embed-responsive
+	{
+		height: 2800px; 
+	}
+}
+
+/*img.rdp_managers
+{
+	height: auto;
+	width: 500px;
+	object-fit: cover;
+}*/
+
+.getSchedule .show-box
+{
+	background-color: grey;
+	color: white;
+}
+
+/*.getSchedule .show-box
+{
+	height: 100px;
+}*/
+
+.getSchedule a:hover
+{
+	text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.getSchedule div
+	{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+.avatar-image
+{
+	width: 20%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+.avatar-image {width: 50%;}
+}
+
+/* News Styles*/
+.category-title, .post-preview
+{
+	font-size: 16px;
+}
+
+.post-preview
+{
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.post-row
+{
+	/*border-bottom: 1px solid black;*/
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.post-title
+{
+	color: black;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.read-more
+{
+	color: black;
+	font-size: 21px;
+	text-decoration: underline;
+}
+
+.read-more a
+{
+	color: black;
+}
+
+/* Button Styles */ 
+.dropdown-item.active, .dropdown-item:active
+{
+	background-color: #303030;
+}
+
+.btn
+{
+	font-size: 18px;
+}
+
+.btn.btn-rdp
+{
+    color: #9D9D9D;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+/* Soundcloud Widget Width*/
+@media only screen and (min-width: 768px)
+{
+	.wp-block-embed-soundcloud
+	{
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Shows, Schedule, Podcast Styles */
+.show-active
+{
+	background-color: #002643;
+}
+
+.show-active .show-title a, .show-active .show-host, .show-active .show-time
+{
+	color: white;
+	/*font-size: 18px;*/
+}
+
+.show-row
+{
+	border-bottom: 1px solid black;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.show-title a
+{
+	text-decoration:none;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.show-times, .show-time, .show-host
+{
+	color: gray;
+}
+
+.show-host-avatar img
+{
+	width:100%; 
+}
+
+/*.show-image img
+{
+	height: auto;
+	width: 100px;
+}*/
+
+/* Author Styles */
+.author img.w-auto 
+{
+	height: 20vh;
+}
+
+@media only screen and (max-width: 768px) 
+{
+.author img.w-auto 
+	{
+		height: auto;
+	}
+}
+
+/* Awards Code Styles */
+.award-year
+{
+	font-size: 16px;
+}
+
+.award-name
+{
+	font-size: 24px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+
+/* Manager Code Styles */
+.manager-box
+{
+	margin-bottom: 10%;
+}
+.manager-name
+{
+	font-size: 24px;
+	margin-bottom: 1%;
+}
+.manager-position
+{
+	font-size: 18px;
+	color: gray;
+}
+.manager-avatar 
+{
+    position: relative;
+    overflow:hidden;
+	padding-bottom:100%;
+}
+.manager-avatar img
+{
+    position:absolute;
+	width:100%; 
+	object-fit: fill;
+}
+
+/* Show Page Styles */ 
+div.show_header div.show_title
+{
+	margin-top: 6%;
+}
+div.show_header
+{
+	/*object-fit: cover;*/
+	text-align:center;
+	color: white;
+	height: 50vh; 
+	width: 100%;
+	background-size: cover; 
+	background-position: center center;
+	margin-bottom: 6%;
+}
+@media only screen and (max-width: 768px) 
+{
+	div.show_header
+	{
+		overflow: hidden;
+		webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		margin-bottom: 0%;
+	}
+	div.show_header div.show_title
+	{
+		margin-top: 6%;
+	}
+}
+
+#show-content .user-name, #show-content .show-genres 
+{
+	font-size: 21px;
+}
+
+#show-content .show-desc, #show-content .user-description
+{
+	font-size: 18px;
+}
+
+.user-name, .user-avatar, .user-description
+{
+	margin-bottom: 2%;
+}
+
+/* Podcast Styles */
+div.podcast div.podcast-image
+{
+	height: 100px;
+}
+
+/* Player Shared Styles */
+.fa-play-circle, .fa-pause-circle
+{
+	color: #E6E6E6;
+}
+div.player_desk, div.player_mob
+{
+	color: white;
+}
+div.player_desk #player_desk_title, div.player_mob #player_mob_title
+{
+	font-weight: bold;
+}
+div.player_desk div.player_info, div.player_mob div.player_info
+{
+	overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* Desktop Player */
+div.player_desk
+{
+	display: none;
+	overflow: hidden;
+    white-space: nowrap;
+}
+div.player_desk div.player_art img
+{
+	height: auto;
+	width: 50px;
+}
+div.player_desk div.player_info
+{	
+	max-width: 70%;
+}
+
+/* Mobile Player */
+div.player_mob
+{
+	height: 10vh;
+}
+div.player_mob div.player_art img
+{
+	height:auto;
+	width: 50px;
+}
+div.player_mob div.player_button
+{
+	height:auto;
+	width: 50px;
+}
+
+/* Carousel Styling for Desktop and Mobile */
+.carousel
+{
+	height: 50%;
+	/*width: 75%;*/
+	margin: 0 auto;
+	margin-bottom: 4%;
+}
+.carousel-caption a
+{
+	color: white; 
+}
+.carousel-caption a:hover
+{
+	color: gray; 
+}
+.carousel-inner
+{
+	background-color: grey;
+}
+.carousel-item img
+{
+	width:75%;
+	margin: auto;
+	display: block;
+}
+@media only screen and (max-width: 768px) 
+{
+	.carousel
+	{
+		width: 100%;
+	}
+	
+	.carousel-item img
+	{
+	  width:100%;
+	  height:100%;
+	}
+}
+
+/* Rotate 360 */
+@keyframes rotator {
+  100% {
+    -ms-transform: rotate(1080deg);
+    /* IE 9 */
+    -webkit-transform: rotate(1080deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(1080deg); } 
+}
